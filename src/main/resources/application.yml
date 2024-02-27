@@ -1,0 +1,12 @@
+server:
+  port: 19909
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+oss:
+  endpoint: http://192.168.0.189:9000
+  bucket: minioadmin
+  access-key: minioadmin
+  secret-key: upload
