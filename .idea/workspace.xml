@@ -58,6 +58,13 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -89,11 +96,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692581179177</updated>
-      <workItem from="1709014035279" duration="2196000" />
+      <workItem from="1709014035279" duration="2489000" />
     </task>
+    <task id="LOCAL-00001" summary="inset (*) : 初始化仓库，首次代码推送">
+      <option name="closed" value="true" />
+      <created>1709016307145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709016307145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="inset (*) : 初始化仓库，首次代码推送">
+      <option name="closed" value="true" />
+      <created>1709016367492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709016367492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update (*) : 说明文件修改">
+      <option name="closed" value="true" />
+      <created>1709016488244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709016488245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inset (*) : 初始化仓库，首次代码推送" />
+    <MESSAGE value="update (*) : 说明文件修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="update (*) : 说明文件修改" />
   </component>
 </project>
