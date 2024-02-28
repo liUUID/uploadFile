@@ -32,9 +32,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cwE2SWhWxWC5q5UxERle6qVEox" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,11 +46,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/root/code/Code_company/svn_home/minio/uploadFile/src/main/resources",
+    "last_opened_file_path": "D:/root/code/Code_company/svn_home/minio/uploadFile",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +99,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692581179177</updated>
-      <workItem from="1709014035279" duration="2489000" />
+      <workItem from="1709014035279" duration="2522000" />
+      <workItem from="1709085120287" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="inset (*) : 初始化仓库，首次代码推送">
       <option name="closed" value="true" />
@@ -122,15 +126,41 @@
       <option name="project" value="LOCAL" />
       <updated>1709016488245</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update (*) : 说明文件修改">
+      <option name="closed" value="true" />
+      <created>1709016540459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709016540459</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update (*) : 说明文件修改">
+      <option name="closed" value="true" />
+      <created>1709016545584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709016545584</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update (*) : 修改hutool依赖">
+      <option name="closed" value="true" />
+      <created>1709085635920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709085635920</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="inset (*) : 初始化仓库，首次代码推送" />
     <MESSAGE value="update (*) : 说明文件修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="update (*) : 说明文件修改" />
+    <MESSAGE value="update (*) : 修改hutool依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="update (*) : 修改hutool依赖" />
   </component>
 </project>

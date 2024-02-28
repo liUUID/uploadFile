@@ -9,6 +9,9 @@
         <module name="uploadFile" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="OssMinio" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
