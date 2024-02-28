@@ -8,31 +8,30 @@
         <version>3.2.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.itkoukou</groupId>
-    <artifactId>uploadFile</artifactId>
+    <groupId>org.itkoukou.oss</groupId>
+    <artifactId>OssLoad</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>uploadFile</name>
-    <description>uploadFile</description>
+    <name>OssLoad</name>
+    <description>OssLoad</description>
     <properties>
         <java.version>17</java.version>
-        <minio.version>8.0.3</minio.version>
-        <hutool.version>5.8.22</hutool.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
+        <!-- 引入本项目 -->
+        <dependency>
+            <groupId>org.dromara.x-file-storage</groupId>
+            <artifactId>x-file-storage-spring</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <!--minio-->
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
-            <version>${minio.version}</version>
-        </dependency>
-        <!-- hutool 的依赖配置-->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>${hutool.version}</version>
+            <version>8.0.3</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -44,6 +43,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

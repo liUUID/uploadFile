@@ -1,12 +1,46 @@
+dromara:
+  x-file-storage: #文件存储配置
+    default-platform: minio-1 #默认使用的存储平台
+    thumbnail-suffix: ".min.jpg" #缩略图后缀，例如【.min.jpg】【.png】
+    huawei-obs:
+      - platform: huawei-obs-1 # 存储平台标识
+        enable-storage: false  # 启用存储
+        access-key: ??
+        secret-key: ??
+        end-point: ??
+        bucket-name: ??
+        domain: ?? # 访问域名，注意“/”结尾，例如：http://abc.obs.com/
+        base-path: test/ # 基础路径
+      - platform: huawei-obs-2 # 存储平台标识，这与这里不能重复
+        enable-storage: false  # 启用存储
+        access-key: ??
+        secret-key: ??
+        end-point: ??
+        bucket-name: ??
+        domain: ?? # 访问域名，注意“/”结尾，例如：http://abc.obs.com/
+        base-path: test2/ # 基础路径
+    aliyun-oss:
+      - platform: aliyun-oss-1 # 存储平台标识
+        enable-storage: false  # 启用存储
+        access-key: ??
+        secret-key: ??
+        end-point: ??
+        bucket-name: ??
+        domain: ?? # 访问域名，注意“/”结尾，例如：https://abc.oss-cn-shanghai.aliyuncs.com/
+        base-path: test/ # 基础路径
+    minio:
+      - platform: minio-1 # 存储平台标识
+        enable-storage: true  # 启用存储
+        access-key: minioadmin
+        secret-key: minioadmin
+        end-point: http://192.168.0.189:9000/
+        bucket-name: upload
+        domain: http://192.168.0.189:9000/upload/ # 访问域名，注意“/”结尾，例如：http://minio.abc.com/abc/
+        base-path: / # 基础路径
 server:
-  port: 19909
+  port: 1999
 spring:
   servlet:
     multipart:
-      max-file-size: 100MB
-      max-request-size: 100MB
-oss:
-  endpoint: http://192.168.0.189:9000
-  bucket: minioadmin
-  access-key: minioadmin
-  secret-key: upload
+      max-file-size: 100MB   # 设置最大文件大小为10MB
+      max-request-size: 200MB   # 设置最大请求大小为20MB
